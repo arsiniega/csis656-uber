@@ -1,6 +1,6 @@
 package edu.cofc.csis656.uber;
 
-public class Driver {
+public class Driver extends User{
 	
 	public String DriverName;
 	

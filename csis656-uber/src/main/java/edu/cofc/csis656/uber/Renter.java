@@ -1,6 +1,6 @@
 package edu.cofc.csis656.uber;
 
-public class Renter {
+public class Renter extends User{
 	
 	public String RenterName;
 	
