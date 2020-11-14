@@ -6,15 +6,15 @@ public class Renter extends User{
 	
 	private double RenterID;
 	
-	public static void main(String[] args) {
-		System.out.println("You're in Renter class");
-	}
-	
 	private void signIn(double RenterID) {
 		System.out.println("You're in signIn method");
 	}
 	
 	private void lookupRide() {
 		System.out.println("You're in lookupRide method");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("You're in Renter class");
 	}
 }

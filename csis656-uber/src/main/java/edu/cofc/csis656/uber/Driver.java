@@ -8,11 +8,7 @@ public class Driver extends User{
 	
 	public boolean isVerified;
 	
-	//private AutoInfo driverInformation;
-	
-	public static void main(String[] args) {
-		System.out.println("You're in Driver");
-	}
+	private AutoInfo driverInformation;
 	
 	private boolean authenticateDriver() {
 		System.out.println("You're in authenticateDriver method");
@@ -25,5 +21,9 @@ public class Driver extends User{
 	
 	private void addAutoInfo() {
 		System.out.println("You're in addAutoInfo method");
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("You're in Driver");
 	}
 }

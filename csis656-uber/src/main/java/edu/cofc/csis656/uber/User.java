@@ -6,13 +6,13 @@ public class User {
 	public boolean isSignedUp;
 	private Profile UserProfile;
 	//private RideStatus status;
-	
+	  
+    private void setOrigin(float geocode) {
+    	
+    }
+    
     public static void main( String[] args )
     {
         System.out.println( "You're in User" );
-    }
-    
-    private void setOrigin(float geocode) {
-    	
     }
 }

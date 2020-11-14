@@ -8,13 +8,8 @@ public class Ride
 {
 	public Driver driverID;
 	public Renter renterID;
-	//private RideStatus status;
-	
-    public static void main( String[] args )
-    {
-        System.out.println( "You're in Ride" );
-    }
-    
+	private RideStatus status;
+	   
     private void setOrigin(float geocode) {
     	
     }
@@ -33,5 +28,15 @@ public class Ride
     
     public boolean acceptRide(Driver driverID) {
     	return true;
+    }
+    
+    public static void main( String[] args )
+    {
+        System.out.println( "You're in Ride.");
+        System.out.println( "Are we riding?"); 
+        if (RideStatus.InProgress.getActiveRideStatus() == true)
+        	System.out.println( "Yes we are!");
+        else
+        	System.out.println( "No, we aren't!");
     }
 }
