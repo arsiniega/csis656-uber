@@ -20,6 +20,8 @@ public class Car {
 		return "Car [Make=" + Make + ", Model=" + Model + ", Year=" + Year + ", VIN=" + VIN + "]";
 	}
 	
-	
+    public static void main( String[] args ) {
+        System.out.println( "You're in Car.");
+    }
 
 }

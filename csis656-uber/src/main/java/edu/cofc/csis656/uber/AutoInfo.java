@@ -19,7 +19,7 @@ public class AutoInfo {
 	
     public static void main( String[] args )
     {
-        System.out.println( "You're in Ride.");
+        System.out.println( "You're in AutoInfo.");
     }
 
 }

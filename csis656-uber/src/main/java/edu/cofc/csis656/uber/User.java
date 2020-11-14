@@ -5,7 +5,6 @@ public class User {
 	private double userID;
 	public boolean isSignedUp;
 	private Profile UserProfile;
-	//private RideStatus status;
 	  
     private void setOrigin(float geocode) {
     	
